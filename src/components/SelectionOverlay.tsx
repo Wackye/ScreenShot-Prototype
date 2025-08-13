@@ -1,4 +1,5 @@
-import { useState, useRef, MouseEvent } from "react";
+import { useState, useRef } from "react";
+import type { MouseEvent } from "react";
 
 interface Props {
   screenshot: string;                    // dataURL

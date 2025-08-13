@@ -16,7 +16,7 @@ const BOX_RATIO = 0.5;
 
 export default function PipOverlay({ screenshot, onComplete, onCancel }: Props) {
   const imgRef      = useRef<HTMLImageElement>(null);
-  const [navBox, setNavBox] = useState({              // 導航框位置（固定右下）
+  const [navBox] = useState({              // 導航框位置（固定右下）
     x: window.innerWidth  - NAV_W - 16,
     y: window.innerHeight - NAV_H - 16,
   });
